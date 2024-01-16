@@ -365,8 +365,17 @@ footer{
 
     /* mobile-responsive */
 @media screen and (max-width:576px) {
+    .nav-list{
+        flex-direction: column;
+        border: 1px solid;
+        padding: 20px !important;
+        border-radius: 10px;
+    }
+    .nav-ber-title > div.menu-list-container{
+        width: 100%;
+    }
     header{
-        height: 700px;
+        height: 800px;
     }
     .nav-ber-title,.about-content-wrapper {
         flex-direction: column;
